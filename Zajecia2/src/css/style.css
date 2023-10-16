@@ -2,12 +2,15 @@
 body {
     background-color: #FFF5E0;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     height: 100vh;
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
+    vertical-align: middle;
+    
+
+   
 }
 
 
@@ -67,9 +70,9 @@ body {
 #form2 {
     
  
-    right: 300px;
+    left: 900px;
     width: 200px;
-   top: 15px;
+   padding: 15px;
     background-color: #FFDDCC; 
    position: absolute;
    text-align: center;
@@ -427,4 +430,26 @@ input[type="button2"] {
     color: #867070;
     left: 340px;
 }
+}
+
+
+@media (min-width: 1567px) {
+    
+     #div2 {
+    
+    left: 500px;
+    
+    
+    
+     }
+
+     #div1{
+        left: 500px;
+     }
+
+    #form2 {
+        left: 1200px;
+    }
+
+
 }
