@@ -1,0 +1,430 @@
+
+body {
+    background-color: #FFF5E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+
+
+#div1 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 50px;
+    left: 300px;
+    margin: 25px; 
+    padding: 15px;
+    box-shadow: 0 0 20px #A8DF8E;
+    color: #867070;
+    background: #E1ECC8;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#div1 h2 {
+    font-size: 24px;
+
+
+}
+#div1 p {
+    font-weight: bolder;
+}
+
+
+#div2 {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 250px;
+    left: 300px;
+    margin: 25px; 
+    padding: 15px;
+    background: #FFDDCC;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #79AC78;
+    text-align: center;
+    box-shadow: 0 0 20px #A8DF8E;
+    
+    
+}
+
+#form2 h2 {
+    margin-top: -10px;
+}
+
+#form2 {
+    
+ 
+    right: 300px;
+    width: 200px;
+   top: 15px;
+    background-color: #FFDDCC; 
+   position: absolute;
+   text-align: center;
+    flex-direction:column; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 0 20px #A8DF8E;
+    color: #867070;
+}
+#div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+    
+}
+
+
+input[type="color" i] {
+    width: 90px;
+    height: 30px;
+    top: 5px;
+    position: relative;
+   
+}
+
+input[type="button3"] {
+    background-color: #A8DF8E;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+     cursor: pointer; 
+    
+}
+
+#div2 input[type="button1"], 
+#div2 input[type="button2"] {
+    cursor: pointer;
+}
+
+
+#form2 input[type="text"] {
+    background-color: #FFF5E0;
+    border: none;
+    box-shadow: 0 0 20px #FFDDCC;
+}
+
+
+#form2 input [type="button3"]{
+    background-color: #FFDDCC;
+}
+
+/* Dodaj ten kod do pliku css/style.css */
+
+
+input[type="text"]{
+    padding: 10px;
+    width: 70px;
+    height: 10px;
+}
+
+input[name="przycisk1"]{
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #FFF5E0;
+    border: none;
+    box-shadow: 0 0 20px #A8DF8E;
+}
+
+input[name="przycisk2"]{
+    margin-left: 10px;
+    background-color: #FFF5E0;
+     border: none;
+    box-shadow: 0 0 20px #A8DF8E;
+}
+    
+
+
+ .input-group {
+    display: flex;
+   padding: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+
+     
+}
+
+.button-group-1{
+    left: -50px;
+    position: relative;
+     cursor: pointer; 
+}
+
+.button-group-2{
+    left: -50px;
+    position: relative;
+     cursor: pointer; 
+}
+
+.button-group-3{
+    left: -95px;
+    position: relative;
+    top: -24px;
+     cursor: pointer; 
+}
+
+input[type="button1"] {
+    font-size: 30px;
+    background-color: #A8DF8E;
+    color: white;
+    border: none;
+    cursor: pointer;
+     border: solid 1px  #79AC78;
+    width: 80px;
+    height: 40px;
+    
+    margin-top: -10px;
+    margin-bottom: 30px;
+    text-align: center;
+  
+}
+
+input[type="textwynik"] {
+    position: absolute;
+    top: 355px;
+      padding: 10px;
+    width: 70px;
+    height: 10px;
+    background-color: #FFF5E0;
+     border: none;
+    box-shadow: 0 0 20px #A8DF8E;
+   
+
+}
+
+
+input[name="wynik"]{
+    
+    justify-content: center;
+}
+
+.wynik{
+    margin-left: -100px;
+    margin-top: 5px;
+}
+
+
+input[type="button2"] {
+   
+    font-size: 30px;; 
+    background-color: #A8DF8E;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    width: 80px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+border: solid 1px  #79AC78;
+   top: -185px;
+    margin-bottom: 30px;
+    
+    
+    margin-left: 370px;
+    
+    text-align: center;
+    position: relative;
+  
+     
+}
+
+
+
+#form2  input[type="text"]:focus {
+    outline: none; 
+    border: 1px solid #A8DF8E; 
+}
+
+#div2 input[type="text"]:focus {
+    border: 1px solid #FFDDCC;
+    outline: none;
+}
+
+#div2 input[type="textwynik"]:focus {
+    border: 1px solid #FFDDCC;
+    outline: none;
+}
+
+
+#div2 input[type="button1"]:focus {
+   border: 1px solid #867070;
+    outline: none;
+}
+
+#div2 input[type="button2"]:focus {
+   border: 1px solid #867070;
+    outline: none;
+}
+
+#form2 input[type="button3"]:focus {
+    border: 1px solid #867070;
+    outline: none;
+}
+
+
+#form2 input[type="button3"]:hover {
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #div1 {
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    top: 50px;
+    left: 20px;
+    margin: 25px;
+    padding: 15px;
+    box-shadow: 0 0 20px #A8DF8E;
+    color: #867070;
+    background: #E1ECC8;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#div2 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 250px;
+    left: 1px;
+    margin: 25px;
+    padding: 30px;
+    background: #FFDDCC;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #79AC78;
+    text-align: center;
+    box-shadow: 0 0 20px #A8DF8E;
+}
+#form2 {
+    width: 200px;
+    top: 750px;
+    background-color: #FFDDCC;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 0 20px #A8DF8E;
+    color: #867070;
+    left: 80px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+
+input[type="textwynik"] {
+    position: absolute;
+    top: 350px;
+    padding: 10px;
+    width: 70px;
+    height: 10px;
+    background-color: #FFF5E0;
+    border: none;
+    box-shadow: 0 0 20px #A8DF8E;
+}
+
+
+input[type="button2"] {
+    font-size: 30px;
+    background-color: #A8DF8E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    border: solid 1px #79AC78;
+    top: -167px;
+    margin-bottom: 30px;
+    margin-left: 290px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    #div1 {
+    position: relative;
+    width: 300px;
+    height: 140px;
+    top: -330px;
+    left: 5px;
+    margin: 25px;
+    padding: 15px;
+    box-shadow: 0 0 20px #A8DF8E;
+    color: #867070;
+    background: #E1ECC8;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+
+#div2 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 250px;
+    left: 270px;
+    margin: 25px;
+    padding: 30px;
+    background: #FFDDCC;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #79AC78;
+    text-align: center;
+    box-shadow: 0 0 20px #A8DF8E;
+}
+
+
+#form2 {
+    width: 200px;
+    top: 780px;
+    background-color: #FFDDCC;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 0 20px #A8DF8E;
+    color: #867070;
+    left: 340px;
+}
+}

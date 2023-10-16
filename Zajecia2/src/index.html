@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="column-container">
+    <div id="div1" onClick="Witaj()">
+        <h2>APLIKACJE INTERNETOWE</h2>
+        <p>PROJEKT 1</p>
+    </div>
+
+    <div id="div2">
+        <form name="form1">
+            <h2 id="kalkulator">KALKULATOR</h2>
+            <div class="input-group">
+                <h4>Liczba 1:</h4> 
+                <input type="text" name="przycisk1" size="5">
+                <h4>Liczba 2:</h4> 
+                <input type="text" name="przycisk2" size="5">
+            </div>
+            <div class="button-group-1">
+                <input type="button1" value="+" size="5" onClick="Dodaj()">
+                <input type="button1" value="-" size="5" onClick="Odejmij()">
+            </div>
+            <div class="button-group-2">
+                <input type="button1" value="*" size="5" onClick="Pomnoz()">
+                <input type="button1" value="/" size="5" onClick="Podziel()">
+            </div>
+            <div class="input-group-3">
+                <h4 class="wynik">Wynik:</h4> 
+                <input type="textwynik" name="wynik" size="5"><br>
+            </div>
+            <div class="button-group-3">
+                <input type="button2" value="sqrt" size="5" onClick="Pierw()">
+                <input type="button2" value="!" size="5" onClick="Silnia()">
+            </div>
+        </form>
+    </div>
+
+    <div id="div3">
+        <form id="form2">
+            <h2>ZMIANA DIV</h2>
+            <h4>TOP:</h4>
+            <input type="text" name="a1">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+            <h4>LEFT:</h4>
+            <input type="text" name="a2">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+            <h4>RIGHT:</h4>
+            <input type="text" name="a3">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+            <h4>WIDTH:</h4>
+            <input type="text" name="a4">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+            <h4>HEIGHT:</h4>
+            <input type="text" name="a5">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+            <h4>BACKGROUND:</h4>
+            <input type="color" name="a6" id="colorPicker">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+            <h4>FONT SIZE:</h4>
+            <input type="text" name="a8">
+            <input type="button3" value="zmiana" size="5" onClick="Zmiana()">
+        </form>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
